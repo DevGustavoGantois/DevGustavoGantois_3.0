@@ -1,9 +1,13 @@
-import Image from "next/image";
+import { HomeAbout } from "./s-about";
+import { HomeHero } from "./s-hero";
+import { HomeProjects } from "./s-projects";
 
 export default function Home() {
   return (
-    <div className="">
-     <h1>Hellow World</h1>
-    </div>
+    <>
+     <HomeHero />
+     <HomeAbout />
+     <HomeProjects />
+    </>
   );
 }
