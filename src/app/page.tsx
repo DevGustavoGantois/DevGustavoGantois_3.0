@@ -5,9 +5,9 @@ import { HomeProjects } from "./s-projects";
 export default function Home() {
   return (
     <>
-     <HomeHero />
-     <HomeAbout />
-     <HomeProjects />
+      <HomeHero />
+      <HomeAbout />
+      <HomeProjects />
     </>
   );
 }
