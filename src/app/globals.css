@@ -14,7 +14,35 @@
   cursor: pointer;
 }
 
+@keyframes appear {
+  from {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px)
+  }
+  100% {
+    transform: translateY(0)
+  }
+}
+
+.float {
+  animation: float 3s ease-in-out infinite;
+}
+
 @layer base {
+  
   :root {
     --font-bebas-neue: 'Bebas Neue', sans-serif;
 

@@ -1,13 +1,13 @@
 export const pt = {
     navbarData: [
-      { name: "Home" },
-      { name: "Sobre mim" },
-      { name: "Projetos" },
-      { name: "Serviços" },
-      { name: "Depoimentos" },
-      { name: "Experiência" },
-      { name: "FAQ" },
-      { name: "Contato" },
+      { name: "Home", href: '#Home' },
+      { name: "Sobre mim", href: '#About' },
+      { name: "Projetos", href: '#Projects' },
+      { name: "Serviços", href: '#Services' },
+      { name: "Depoimentos", href: '#Testimonials' },
+      { name: "Experiência", href: '#Experiences' },
+      { name: "FAQ", href: '#FAQ' },
+      { name: "Contato", href: '#Contact' },
     ],
   
     homeHero: [

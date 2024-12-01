@@ -3,6 +3,7 @@ import "./globals.css";
 import { Bebas_Neue, Plus_Jakarta_Sans } from "next/font/google";  
 import { Footer } from "@/components/global/footer";
 import { Header } from "@/components/global/header";
+import { LanguageProvider } from "@/context/language-context";
 
 const bebas_neue = Bebas_Neue({
   variable: "--font-bebas-neue",
@@ -30,12 +31,14 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <LanguageProvider>
       <body
         className={`${bebas_neue.variable} ${plus_jakarta_sans.variable} antialiased bg-black`}>
         <Header />
         {children}
         <Footer />
       </body>
+      </LanguageProvider>
     </html>
   );
 }
