@@ -8,6 +8,10 @@ export default {
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
+	fontFamily: {
+		primary: 'Bebas Neue, sans-serif',
+		secondary: 'Plus Jakarta Sans, sans-serif'
+	},
   	extend: {
   		colors: {
   			background: 'hsl(var(--background))',

@@ -4,6 +4,9 @@
 
 @layer base {
   :root {
+    --font-bebas-neue: 'Bebas Neue', sans-serif;
+
+    --font-plus-jakarta-sans: 'Plus Jakarta Sans', sans-serif;
 
     --background: 0 0% 100%;
 
