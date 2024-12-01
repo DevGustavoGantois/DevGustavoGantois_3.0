@@ -205,12 +205,14 @@ export const en = {
         ],
     },
 
-    contactData: {
-        title: "Contact",
-        description: "Get in touch so we can develop your project together! Let's transform your ideas into innovative digital solutions, taking your visions to the online environment with excellence.",
-        btnTextPrimary: 'WhatsApp',
-        btnTextSecondary: 'Instagram',
-    },
+    homeContactData: [
+        {
+            title: "Contact",
+            description: "Get in touch so we can develop your project together! Let's transform your ideas into innovative digital solutions, taking your visions to the online environment with excellence.",
+            btnTextPrimary: 'WhatsApp',
+            btnTextSecondary: 'Instagram',
+    }
+    ],
 
     footerData: {
         copyright: "© 2024 Gustavo Gantoiss. All rights reserved.",

@@ -224,12 +224,13 @@ export const pt = {
       ],
     },
   
-    homeContactData: {
-        title: "Contact",
+    homeContactData:[ {
+        title: "Contato",
         description: "Entre em contato para desenvolvermos juntos o seu projeto! Vamos transformar suas ideias em soluções digitais inovadoras, trazendo suas visões para o ambiente online com excelência.",
         btnTextPrimary: 'Whatsapp',
         btnTextSecondary: 'Instagram',
     },
+  ],
 
     copyrightData: {
          copyright: '@Copyright. Todos os direitos reservados @devgustavogantois_ 2024'
