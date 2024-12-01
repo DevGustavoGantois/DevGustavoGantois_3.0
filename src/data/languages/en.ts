@@ -16,7 +16,8 @@ export const en = {
         },
     ],
 
-    homeAboutData: {
+    homeAboutData: [
+        {
         title: "About Me",
         description:
             "Hey there! How's it going? My name is Gustavo Gantois, and I’m a freelance web developer specialized in modern technologies such as Next.js, REACT, and Tailwind. I’m an innovation enthusiast, always striving to evolve my skills and create high-quality projects. In addition to development, I also study UI/UX design, which allows me to blend code and design to create functional and attractive interfaces. Passionate about learning and improving, I’m constantly exploring new ways to add value to my projects and deliver a complete experience to clients!",
@@ -58,8 +59,9 @@ export const en = {
                 location: "Salvador-BA",
                 year: 2023,
             },
-        ],
+        ]
     },
+    ],
 
     homeProjectsData: {
         pretitle: "Some of my",
