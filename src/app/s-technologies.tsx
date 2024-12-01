@@ -19,7 +19,7 @@ export function HomeTechnologies() {
         <section className="max-w-[1500px] p-6 lg:p-0 mx-auto mt-20 lg:mt-40 mb-4 lg:mb-20">
             {technologiesData.map((item, index) => {
                 return (
-                    <div key={index} className="flex flex-col justify-center">
+                    <div key={index} className="flex flex-col justify-center mb-6 lg:mb-16">
                 <h1 className="font-primary text-white  text-2xl lg:text-6xl text-center">{item.title}</h1>
                 <p className="font-secondary text-white text-sm lg:text-base font-extralight text-center">{item.description}</p>
             </div>
