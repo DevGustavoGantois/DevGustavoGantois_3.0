@@ -55,11 +55,20 @@ export default {
   				'5': 'hsl(var(--chart-5))'
   			}
   		},
+		keyframes: {
+			slideCarousel: {
+				'from': { transform: 'translateX(0)' },
+				'to': { transform: 'translateX(-100%)' },
+			  },
+		},
   		borderRadius: {
   			lg: 'var(--radius)',
   			md: 'calc(var(--radius) - 2px)',
   			sm: 'calc(var(--radius) - 4px)'
-  		}
+  		},
+		animation: {
+			slideCarousel: 'slideCarousel 65s linear infinite',
+		}
   	}
   },
   plugins: [require("tailwindcss-animate")],
