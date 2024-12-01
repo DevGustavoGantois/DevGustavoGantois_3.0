@@ -84,22 +84,27 @@ export const pt = {
         title: "Serviços",
         services: [
           {
-            name: "Web Development",
+            number: '01',
+            name: "Desenvolvimento Web",
             description: "Desenvolvimento de websites modernos, rápidos e responsivos, utilizando as melhores tecnologias do mercado.",
           },
           {
+            number: '02',
             name: "Design UI/UX",
             description: "Criação de interfaces intuitivas e experiências de usuário que garantem a melhor navegação possível.",
           },
           {
+            number: '03',
             name: "Web Design",
             description: "Design visual atrativo e funcional para websites, alinhado à identidade da sua marca.",
           },
           {
+            number: '04',
             name: "Suporte 24h",
             description: "Ofereço suporte técnico contínuo para garantir que seu site esteja sempre funcionando perfeitamente.",
           },
           {
+            number: '05',
             name: "Criação de Sistemas",
             description: "Desenvolvimento de sistemas personalizados para atender às necessidades específicas do seu negócio.",
           },

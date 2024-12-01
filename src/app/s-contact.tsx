@@ -30,7 +30,7 @@ export function HomeContact() {
                     {item.description}
                     </p>
                     </div>
-                    <div className="flex gap-2 mt-6 justify-center lg:justify-start">
+                    <div className="flex gap-4 mt-6 justify-center lg:justify-start">
                         <Button variant="primary_port">{item.btnTextPrimary}</Button>
                         <Button variant="secondary_port">{item.btnTextSecondary}</Button>
                     </div>

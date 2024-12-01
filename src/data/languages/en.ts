@@ -77,31 +77,37 @@ export const en = {
         ],
     },
 
-    homeServicesData: {
-        title: "Services",
+    homeServicesData: [
+        {title: "Services",
         services: [
             {
+                number: '01',
                 name: "Web Development",
                 description: "Developing modern, fast, and responsive websites using the best technologies on the market.",
             },
             {
+                number: '02',
                 name: "UI/UX Design",
                 description: "Creating intuitive interfaces and user experiences that ensure the best possible navigation.",
             },
             {
+                number: '03',
                 name: "Web Design",
                 description: "Attractive and functional visual design for websites, aligned with your brand’s identity.",
             },
             {
+                number: '04',
                 name: "24h Support",
                 description: "Providing continuous technical support to ensure your website is always working perfectly.",
             },
             {
+                number: '05',
                 name: "System Creation",
                 description: "Developing customized systems to meet your business's specific needs.",
             },
         ],
-    },
+    }
+    ],
 
     homeTestimonialsData: {
         title: "Testimonials",
@@ -160,10 +166,12 @@ export const en = {
         ],
     },
 
-    homeTechnologiesData: {
+    homeTechnologiesData: [
+        {
         title: "Technologies I Use",
         description: "Explore my work as a Web Developer",
-    },
+        }
+    ],
 
     homeFAQData: {
         title: "FAQ",

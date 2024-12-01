@@ -22,8 +22,8 @@ export function Navbar() {
   };
 
   return (
-    <nav className="text-white flex justify-between items-center gap-4 mb-10">
-      <ul className="flex gap-24 border-b border-white/30 rounded-2xl py-8 px-8">
+    <nav className="hidden xl:flex text-white justify-between items-center gap-4 mb-10">
+      <ul className="flex gap-20 border-b border-white/30 rounded-2xl py-8 px-8">
         {navbarData.map((item, index) => (
           <li
             key={index}

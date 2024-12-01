@@ -84,22 +84,27 @@ export const fr = {
         title: "Services",
         services: [
           {
+            number: '01',
             name: "Développement Web",
             description: "Développement de sites web modernes, rapides et réactifs, utilisant les meilleures technologies du marché.",
           },
           {
+            number: '02',
             name: "Design UI/UX",
             description: "Création d'interfaces intuitives et d'expériences utilisateur garantissant la meilleure navigation possible.",
           },
           {
+            number: '03',
             name: "Web Design",
             description: "Design visuel attrayant et fonctionnel pour les sites web, aligné avec l'identité de votre marque.",
           },
           {
+            number: '04',
             name: "Support 24h",
             description: "Offre un support technique continu pour garantir que votre site fonctionne toujours parfaitement.",
           },
           {
+            number: '05',
             name: "Création de systèmes",
             description: "Développement de systèmes personnalisés pour répondre aux besoins spécifiques de votre entreprise.",
           },
