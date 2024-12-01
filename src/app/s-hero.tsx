@@ -16,8 +16,8 @@ export function HomeHero() {
             </div>
             </div>
             <div className="flex justify-center items-center flex-col gap-10 mt-20">
-            <Image src="/HomeCTA.svg" width={1200} height={1300} alt="" className="" />
-            <div className="mb-14 lg:mb-0">
+            <Image src="/HomeCTA.svg" width={1200} height={1300} alt="" data-aos="zoom-in" />
+            <div className="mb-14 lg:mb-0" data-aos="fade-up">
                 <Button variant="secondary">Conheça meu portifolio <FaGlobe /></Button>
             </div>
             </div>
@@ -29,7 +29,7 @@ export function HomeHero() {
                 <p className="text-white font-secondary animate-pulse">X UI Designer X</p>
             </div>
             </div>
-            <figure className="flex justify-center items-center">
+            <figure className="flex justify-center items-center" data-aos="flip-up">
                 <Image src="/LogoElipses.svg" alt="" width={150} height={100} className="w-[100px] lg:w-[150px]" />
             </figure>
         </section>
