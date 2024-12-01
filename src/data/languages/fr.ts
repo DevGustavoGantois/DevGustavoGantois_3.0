@@ -1,202 +1,216 @@
-export const navbarData = [
-    { name: "Accueil" },
-    { name: "À Propos" },
-    { name: "Projets" },
-    { name: "Services" },
-    { name: "Témoignages" },
-    { name: "Expérience" },
-    { name: "FAQ" },
-    { name: "Contact" },
-];
-
-export const homeHero = [
-    {
-        btnText: "Découvrez mon travail",
-    },
-];
-
-export const homeAboutData = [
-    {
-        title: "À Propos",
+export const fr = {
+    navbarData: [
+      { name: "Accueil" },
+      { name: "À propos de moi" },
+      { name: "Projets" },
+      { name: "Services" },
+      { name: "Témoignages" },
+      { name: "Expérience" },
+      { name: "FAQ" },
+      { name: "Contact" },
+    ],
+  
+    homeHero: [
+      {
+        btnText: "Découvrez mes travaux",
+      },
+    ],
+  
+    homeAboutData: [
+      {
+        title: "À propos de moi",
         description:
-            "Salut! Comment ça va? Je m'appelle Gustavo Gantois, et je suis développeur web freelance spécialisé dans les technologies modernes comme Next.js, REACT et Tailwind. Je suis passionné par l'innovation et je cherche toujours à évoluer dans mes compétences pour créer des projets de haute qualité. En plus du développement, j'étudie également le design UI/UX, ce qui me permet de combiner code et design pour créer des interfaces fonctionnelles et attractives. Passionné par l'apprentissage et l'amélioration, je suis constamment à la recherche de nouvelles façons d'ajouter de la valeur à mes projets et d'offrir une expérience complète à mes clients!",
+          "Salut ! Ça va ? Je m'appelle Gustavo Gantois, je suis développeur web freelance spécialisé dans des technologies modernes comme Next.js, REACT et Tailwind. Je suis un passionné d'innovation et je cherche toujours à améliorer mes compétences et à créer des projets de haute qualité. En plus du développement, j'étudie aussi le design UI/UX, ce qui me permet de combiner code et design pour créer des interfaces fonctionnelles et attrayantes. Passionné par l'apprentissage et l'amélioration continue, j'explore constamment de nouvelles façons d'ajouter de la valeur à mes projets et d'offrir une expérience complète à mes clients !",
         btnTextPrimary: "Certificats",
-        btnTextSecondary: "Télécharger le CV",
+        btnTextSecondary: "Télécharger CV",
         certificates: [
-            { title: "Certificat International", description: "Programmation Full Stack", institution: "Infinity School" },
-            { title: "Fondamentaux de React", institution: "RocketSeat" },
-            { title: "Lettre de Recommandation", institution: "Infinity School" },
-            { title: "Approfondissement des Hooks", institution: "RocketSeat" },
-            { title: "Fondamentaux de l'Accessibilité, Directives, WCAG, Lecteurs d'Écran", institution: "RocketSeat" },
-            { title: "Accessibilité, Modal, Requêtes HTTP, Connexion API, Gestion d'État via Performance Context", institution: "RocketSeat" },
-            { title: "Maîtriser TailwindCSS", institution: "RocketSeat" },
-            { title: "NWL Pocket Full Stack (Parcours Intermédiaire)", institution: "RocketSeat" },
-            { title: "Fondamentaux de Next.JS", institution: "RocketSeat" },
-            { title: "Introduction à la Cybersécurité", institution: "CISCO" },
-            { title: "Fondamentaux de la Cybersécurité", institution: "CISCO Networking Academy" },
-            { title: "Certificat Python World 1 et 2", instructor: "Gustavo Guanabara" },
-            { title: "Design System", description: "Design | Storybook | Github Actions", institution: "RocketSeat" },
-            { title: "Intégration Frontend et Backend", institution: "RocketSeat" },
-            { title: "Approfondissement de Next.js", institution: "RocketSeat" },
-            { title: "Spécialiste React", institution: "RocketSeat" }
+          { title: "Certificat International", description: "Programmation Full Stack", institution: "Infinity School" },
+          { title: "Fondamentaux de React", institution: "RocketSeat" },
+          { title: "Lettre de recommandation", institution: "Infinity School" },
+          { title: "Approfondissement sur les Hooks", institution: "RocketSeat" },
+          { title: "Fondamentaux de l'accessibilité, lignes directrices, WCAG, lecteurs d'écran", institution: "RocketSeat" },
+          { title: "Accessibilité, modal, requêtes HTTP, connexion avec API, gestion des états via le contexte performance.", institution: "RocketSeat" },
+          { title: "Maîtrise de TailwindCSS", institution: "RocketSeat" },
+          { title: "NWL Pocket Full Stack (Parcours Intermédiaire)", institution: "RocketSeat" },
+          { title: "Fondamentaux de Next.JS", institution: "RocketSeat" },
+          { title: "Introduction à la cybersécurité", institution: "CISCO" },
+          { title: "Fondamentaux de la cybersécurité", institution: "CISCO Networking Academy" },
+          { title: "Certificat du monde 1 et 2 de Python", instructor: "Gustavo Guanabara" },
+          { title: "Design System", description: "Design | Storybook | Github Actions", institution: "RocketSeat" },
+          { title: "Intégration Frontend et Backend", institution: "RocketSeat" },
+          { title: "Approfondissement sur Next.js", institution: "RocketSeat" },
+          { title: "Spécialiste en React", institution: "RocketSeat" },
         ],
         graduations: [
-            {
-                degree: "Diplôme de Lycée",
-                institution: "Collège Sacramentinas - BA",
-                year: 2022
-            },
-            {
-                degree: "Licence en Analyse et Développement de Systèmes",
-                institution: "UNIFACS",
-                semester: "3e semestre",
-                years: "2023 - 2025"
-            },
-            {
-                degree: "Anglais Pré-Intermédiaire",
-                institution: "UPTime English School",
-                location: "Salvador-BA",
-                year: 2023
-            }
-        ]
-    }
-];
-
-export const homeProjectsData = [
-    {
-        pretitle: "Quelques-uns de mes",
+          {
+            degree: "Diplôme d'études secondaires",
+            institution: "Collège Sacramentinas - BA",
+            year: '2022',
+          },
+          {
+            degree: "En cours : Analyse et développement de systèmes",
+            institution: "UNIFACS",
+            semester: "3e semestre",
+            years: "2023 - 2025",
+          },
+          {
+            degree: "Anglais Pré-intermédiaire",
+            institution: "École d'anglais UPTime",
+            location: "Salvador-BA",
+            year: '2023',
+          },
+        ],
+      },
+    ],
+  
+    homeProjectsData: [
+      {
+        pretitle: "Certains de mes",
         title: "Projets",
-        subtitle: "Développer des solutions pour mes clients",
+        subtitle: "Développement de solutions pour mes clients",
         workDescription: "Étapes de mon travail !",
         steps: [
-            "1. Comprendre les besoins du client.",
-            "2. Envoyer le contrat pour le développement du service.",
-            "3. Envoyer le briefing pour comprendre les besoins plus en détail.",
-            "4. Créer le Design UI | Concevoir le site web du client.",
-            "5. Développer le code, puis livrer le tout nouveau site web!"
+          "1. Comprendre les besoins du client.",
+          "2. Envoi du contrat pour le développement du service.",
+          "3. Envoi du briefing pour comprendre les besoins plus en détail.",
+          "4. Création du design UI | Design du site du client.",
+          "5. Développement du code, puis livraison du site tout neuf !",
         ],
-    },
-];
-
-export const homeServicesData = [{
-    title: "Services",
-    services: [
-        {
+      },
+    ],
+  
+    homeServicesData: [
+      {
+        title: "Services",
+        services: [
+          {
             name: "Développement Web",
-            description: "Développer des sites modernes, rapides et réactifs en utilisant les meilleures technologies du marché."
-        },
-        {
+            description: "Développement de sites web modernes, rapides et réactifs, utilisant les meilleures technologies du marché.",
+          },
+          {
             name: "Design UI/UX",
-            description: "Créer des interfaces intuitives et des expériences utilisateur qui garantissent la meilleure navigation possible."
-        },
-        {
-            name: "Design Web",
-            description: "Design visuel attractif et fonctionnel pour les sites web, aligné avec l'identité de votre marque."
-        },
-        {
+            description: "Création d'interfaces intuitives et d'expériences utilisateur garantissant la meilleure navigation possible.",
+          },
+          {
+            name: "Web Design",
+            description: "Design visuel attrayant et fonctionnel pour les sites web, aligné avec l'identité de votre marque.",
+          },
+          {
             name: "Support 24h",
-            description: "Fournir un support technique continu pour garantir que votre site web fonctionne toujours parfaitement."
+            description: "Offre un support technique continu pour garantir que votre site fonctionne toujours parfaitement.",
+          },
+          {
+            name: "Création de systèmes",
+            description: "Développement de systèmes personnalisés pour répondre aux besoins spécifiques de votre entreprise.",
+          },
+        ],
+      },
+    ],
+  
+    homeTestimonialsData: [
+      {
+        title: "Témoignages",
+        testimonials: [
+          {
+            name: "Eduardo Sávio",
+            testimonial: '"Super travail ! Le site est réactif et offre une excellente expérience utilisateur, un design exceptionnel avec des animations légères et réactives comme je l\'attendais. Félicitations !"',
+          },
+          {
+            name: "Matheus Hayashi",
+            testimonial: '"Mon frère, le site est vraiment top, il est parfait !"',
+          },
+          {
+            name: "Samuel Fernandes",
+            testimonial: '"Le site est vraiment très bien, il convainc pleinement le client de finaliser l\'achat, il me facilite grandement le travail de vente, il a été livré dans les délais et a répondu à toutes mes attentes."',
+          },
+          {
+            name: "Matheus Caria",
+            testimonial: '"Le site est vraiment super, il est magnifique, merci beaucoup !"',
+          },
+          {
+            name: "Maurício Sampaio",
+            testimonial: '"Guga, tu es le meilleur, le site est vraiment très bien, tu as réussi à transmettre exactement ce que je t\'ai demandé."',
+          },
+          {
+            name: "Thomaz",
+            testimonial: '"C\'est incroyable ! Félicitations, le projet est vraiment top !"',
+          },
+        ],
+      },
+    ],
+  
+    homeExperiencesData: [
+      {
+        title: "Expériences",
+        description: "Quelques-unes de mes expériences professionnelles",
+        experiences: [
+          {
+            title: "Entreprise Novasce",
+            position: "Stagiaire",
+            funcionality: "Développeur Front-end | Designer UI",
+            description:
+              "Responsable du développement d'interfaces (front-end) utilisant des frameworks comme Next.js et TailwindCSS, associés au langage TypeScript et à la bibliothèque ShadcnUI. Actuellement, je contribue à l'entreprise en développant intégralement le front-end des projets et en collaborant activement dans le domaine du UI/UX. Je maîtrise le design UI en utilisant Figma pour créer des systèmes de design et concevoir des écrans complets pour les systèmes en développement.",
+          },
+          {
+            title: "Infinity School",
+            position: "Stagiaire",
+            funcionality: "Développeur Full Stack",
+            description:
+              "Responsable du développement full stack, utilisant des technologies telles que HTML5, CSS3 avec Bootstrap, JavaScript, AJAX, et Django avec Python, en appliquant la programmation orientée objet (POO) au backend. J'ai contribué à l'entreprise dans le développement de l'application Infinity App, destinée au département RH pour optimiser les processus internes et améliorer l'efficacité opérationnelle. Expérience avec les bases de données.",
+          },
+          {
+            title: "Développeur Web Freelance",
+            position: "Autonome | Freelance",
+            description:
+              "Je travaille dans une agence numérique et aussi en tant que freelance dans la création de sites web, la programmation, ainsi que sur des plateformes comme WordPress et Shopify. Je développe des projets avec un focus sur le design innovant, la réactivité et l'optimisation SEO, appliquant les meilleures pratiques comme l'utilisation correcte des balises et l'optimisation des images pour améliorer le positionnement des sites sur Google Search Console. En tant que web designer, j'utilise Figma pour créer des maquettes de sites web et d'applications mobiles, garantissant une expérience visuelle cohérente et fonctionnelle.",
+          },
+        ],
+      },
+    ],
+  
+    homeTechnologiesData: [
+      {
+        title: "Technologies que j'utilise",
+        description: "Découvrez mon travail en tant que développeur web",
+      },
+    ],
+  
+    homeFAQData: {
+      title: "FAQ",
+      subtitle: "Questions Fréquentes",
+      questionsAndAnswers: [
+        {
+          question: "Comment fonctionne votre proposition et votre méthode de travail ?",
+          answer: `Le processus commence par une analyse détaillée des besoins du client, effectuée lors d'une réunion ou via WhatsApp, selon la préférence du client. Ensuite, j'envoie un briefing pour mieux comprendre les attentes et exigences spécifiques du projet. Je présente un contrat formel pour établir un engagement mutuel, garantissant sécurité et transparence tout au long du développement du projet. Après la signature du contrat, je commence la création du design et du développement du site web en accord avec les exigences et fonctionnalités spécifiées. En tant que développeur, je fournis un produit de haute qualité dans les délais impartis.`,
         },
         {
-            name: "Création de Systèmes",
-            description: "Développer des systèmes personnalisés pour répondre aux besoins spécifiques de votre entreprise."
+          question: "Que pouvez-vous créer pour moi ?",
+          answer: `Je propose une gamme de services, allant de la création de sites web modernes, interactifs et réactifs à des solutions sur mesure pour répondre à vos besoins spécifiques. Mes projets sont développés avec des technologies récentes comme React.js, Next.js et TailwindCSS, ce qui garantit des performances rapides et une excellente expérience utilisateur.`,
+        },
+        {
+          question: "Quels sont vos tarifs ?",
+          answer: `Chaque projet a des exigences et des spécifications uniques, c'est pourquoi je préfère discuter des tarifs après avoir pris connaissance de vos besoins. Je vous propose un devis détaillé une fois le projet clarifié et tous les détails pris en compte.`,
+        },
+        {
+          question: "Comment vous contacter ?",
+          answer: `Vous pouvez me contacter via WhatsApp, par e-mail ou en utilisant le formulaire de contact sur ce site. Je vous réponds dans les plus brefs délais pour discuter de vos besoins et de la façon dont je peux vous aider.`,
+        },
+      ],
+    },
+
+    homeContactData: [
+        {
+            title: "Contact",
+            description: "Contactez-moi pour développer ensemble votre projet ! Transformons vos idées en solutions digitales innovantes, en apportant vos visions dans l'environnement en ligne avec excellence.",
+            btnTextPrimary: 'Whatsapp',
+            btnTextSecondary: 'Instagram' 
         }
-    ]
-}];
-
-export const homeTestimonialsData = [{
-    title: "Témoignages",
-    testimonials: [
-        {
-            name: 'Eduardo Sávio',
-            testimonial: '"Excellent travail ! Le site est réactif et offre une expérience utilisateur exceptionnelle, avec un design parfait et des animations légères et réactives comme je l\'avais imaginé. Félicitations !"'
-        },
-        {
-            name: 'Matheus Hayashi',
-            testimonial: '"Frère, le site est incroyable, il est parfait !"'
-        },
-        {
-            name: 'Samuel Fernandes',
-            testimonial: '"Le site est superbe, il convainc les clients d\'acheter, il m\'évite d\'avoir à vendre de manière traditionnelle, il a été livré à temps et a répondu à toutes mes attentes."'
-        },
-        {
-            name: 'Matheus Caria',
-            description: '"Le site est magnifique, frère ! C\'est vraiment beau, merci !"'
-        },
-        {
-            name: 'Maurício Sampaio',
-            description: '"Guga, tu es un génie, le site est fantastique, tu as réussi à transmettre exactement ce que je demandais."'
-        },
-        {
-            name: 'Thomaz',
-            description: '"Tu es incroyable ! Félicitations, le projet est incroyable !"'
-        }
-    ]
-}];
-
-export const homeExperiencesData = [{
-    title: "Expériences",
-    description: "Quelques-unes de mes expériences professionnelles",
-    experiences: [
-        {
-            title: 'Novasce Company',
-            position: 'Stagiaire',
-            functionality: 'Développeur Frontend | Designer UI',
-            description: 'Responsable du développement des interfaces frontend en utilisant des frameworks tels que Next.js et TailwindCSS, ainsi que TypeScript et ShadcnUI. Actuellement, je contribue à la société en développant entièrement le frontend des projets et en collaborant activement en UI/UX.'
-        },
-        {
-            title: 'Infinity School',
-            position: 'Stagiaire',
-            functionality: 'Développeur Full Stack',
-            description: 'Responsable du développement full-stack, travaillant avec des technologies comme HTML5, CSS3, Bootstrap, JavaScript, AJAX et Django avec Python, appliquant la programmation orientée objet (OOP) côté backend. Contribué au développement de l\'Infinity App visant à améliorer les processus internes.'
-        },
-        {
-            title: 'Développeur Web Freelance',
-            position: 'Freelance',
-            description: 'Travail en tant qu\'agence digitale et également en freelance indépendant dans la création et la programmation de sites web, y compris WordPress et Shopify. Je me concentre sur un design innovant, la réactivité et l\'optimisation SEO, en appliquant les meilleures pratiques pour améliorer le classement des sites sur Google Search Console.'
-        },
-    ]
-}];
-
-export const homeTechnologiesData = [{
-    title: "Technologies que j'utilise",
-    description: "Explorez mon travail en tant que Développeur Web"
-}];
-
-export const homeFAQData = {
-    title: "FAQ",
-    subtitle: "Questions Fréquentes",
-    questionsAndAnswers: [
-        {
-            question: "Comment fonctionne votre proposition et votre processus de travail ?",
-            answer: `Le processus commence par une analyse détaillée des besoins du client, réalisée lors d'une réunion ou via WhatsApp, en fonction des préférences du client. Ensuite, j'envoie un briefing pour mieux comprendre les attentes et les exigences spécifiques du projet. Après la signature du contrat, je commence le processus de prototypage sur Figma, tout en maintenant le client informé et en fournissant un support 24/7 tout au long. J'utilise la plateforme de choix du client et suis les meilleures pratiques pour garantir un site réactif, moderne et évolutif, axé sur la performance et l'ergonomie. Le site est livré dans les délais convenus, accompagné du design nécessaire et de la documentation, y compris un guide de style. De plus, j'intègre le site avec Google Search Console et mets en place des stratégies SEO efficaces pour améliorer la visibilité et le classement.`
-        },
-        {
-            question: "Combien de temps faut-il pour développer un site web ?",
-            answer: `Le temps de développement varie en fonction de la complexité du site. Les projets simples peuvent être terminés en une à deux semaines, tandis que les projets plus complexes peuvent prendre de trois à quatre semaines. La durée dépend également de la collaboration du client et des ajustements ou des ajouts au projet pendant le processus de développement.`
-        },
-        {
-            question: "Combien cela coûtera-t-il ?",
-            answer: "Le prix dépend de la complexité et des fonctionnalités du projet. Je fournis un devis personnalisé après avoir étudié les besoins du client et la portée du projet."
-        },
-        {
-            question: "Est-ce que vous offrez une assistance après la livraison du site ?",
-            answer: "Oui, je fournis une assistance après la livraison du site, y compris la correction de bugs et les mises à jour, ainsi que des ajustements mineurs, selon le contrat."
-        },
-        {
-            question: "Offrez-vous des services de référencement (SEO) ?",
-            answer: "Oui, je propose des services d'optimisation pour les moteurs de recherche (SEO), y compris l'intégration avec Google Search Console, l'optimisation du contenu et des métadonnées, et des recommandations pour améliorer le classement dans les résultats de recherche."
-        },
-    ]
-};
-
-export const homeContactData = [{
-    title: "Contact",
-    description: "Contactez-moi pour développer ensemble votre projet ! Transformons vos idées en solutions digitales innovantes, en apportant vos visions dans l'environnement en ligne avec excellence.",
-    btnTextPrimary: 'Whatsapp',
-    btnTextSecondary: 'Instagram'
-}];
-
-export const copyrightData = [{
-    copyright: '@Copyright. Tous droits réservés @devgustavogantois_ 2024'
-}];
+    ],
+  
+    footerData: [
+     {
+         copyright: '@Copyright. Tous droits réservés @devgustavogantois_ 2024'
+     }
+    ],
+  };
+  
