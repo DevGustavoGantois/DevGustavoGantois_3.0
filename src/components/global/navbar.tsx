@@ -1,7 +1,7 @@
 export function Navbar() {
     return (
-        <nav className="">
-            
+        <nav className="text-white">
+            desktop navbar
         </nav>
     )
 }

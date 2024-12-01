@@ -2,6 +2,18 @@
 @tailwind components;
 @tailwind utilities;
 
+::-webkit-scrollbar {
+  width: 8px;
+  background-color: #000;
+  border-radius: 999px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #fff;
+  border-radius: 999px;
+  cursor: pointer;
+}
+
 @layer base {
   :root {
     --font-bebas-neue: 'Bebas Neue', sans-serif;
