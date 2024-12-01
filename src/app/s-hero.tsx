@@ -2,9 +2,23 @@
 import { Button } from "@/components/ui/button";
 import Image from "next/image";
 import { FaGlobe } from 'react-icons/fa';
-
+import { useLanguage } from "@/context/language-context";
+import { pt } from "@/data/languages/pt-br";
+import { en } from "@/data/languages/en";
+import { fr } from "@/data/languages/fr";
+import Link from "next/link";
 
 export function HomeHero() {
+
+    const { language } = useLanguage();
+
+  const heroData =
+    language === "pt"
+      ? pt.homeHero
+      : language === "en"
+      ? en.homeHero
+      : fr.homeHero;
+
     return (
         <section className="max-w-[1500px] p-6 lg:p-0 mx-auto">
             <div className="hidden lg:flex justify-between mb-20">
@@ -21,11 +35,17 @@ export function HomeHero() {
                     <h1 className="font-primary text-7xl bg-gradient-to-r from-blue-500 via-blue-700 to-white bg-clip-text text-transparent animate-pulse">Ui Designer</h1>
                 </div>
             <div className="hidden md:flex">
-            <Image src="/HomeCTA.svg" width={1150} height={1300} alt="" data-aos="zoom-in" />
+            <Image src="/HomeCTA.svg" width={1150} height={1300} alt="" data-aos="zoom-in" className="float" />
             </div>
-            <div className="mb-14 lg:mb-0" data-aos="fade-up">
-                <Button variant="secondary">Conheça meu portifolio <FaGlobe /></Button>
+            {heroData.map((item, index) => {
+                return (
+                    <div className="mb-14 lg:mb-0" data-aos="fade-up" key={index}>
+                    <Link href="#Projects">
+                    <Button className="flex justify-center items-center gap-2" variant="secondary_port">{item.btnText}<FaGlobe /></Button>
+                    </Link>
             </div>
+                )
+            })}
             </div>
             <div className="hidden lg:flex justify-between mt-20">
             <div>

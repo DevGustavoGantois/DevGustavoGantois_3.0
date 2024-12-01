@@ -1,6 +1,6 @@
 export function HomeProjects() {
     return (
-        <section className="bg-white p-6 lg:p-12 mt-20 lg:mt-40">
+        <section className="bg-white p-6 lg:p-12 mt-20 lg:mt-40" id="Projects">
             <div className="max-w-[1500px] p-6 lg:p-0 mx-auto">
                 <div className="flex flex-col gap-6 lg:flex-row justify-center lg:justify-between">
                 <div className="flex flex-col gap-2">
@@ -23,7 +23,7 @@ export function HomeProjects() {
                     <h1 className="text-black"></h1>
                 </div>
                 <main className="mt-20 lg:mt-40">
-                    
+
                 </main>
             </div>
         </section>

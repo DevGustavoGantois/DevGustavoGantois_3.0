@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export function HomeContact() {
     return (
-        <section className="max-w-[1500px] p-6 lg:p-0 mx-auto mt-10 lg:mt-40" id="#Contact">
+        <section className="max-w-[1500px] p-6 lg:p-0 mx-auto mt-10 lg:mt-40">
             <div className="flex flex-col lg:flex-row justify-center lg:justify-between">
                 <article>
                     <h1 className="font-primary text-2xl text-white">aaaaaa</h1>
