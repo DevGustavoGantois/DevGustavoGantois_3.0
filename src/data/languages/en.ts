@@ -63,7 +63,8 @@ export const en = {
     },
     ],
 
-    homeProjectsData: {
+    homeProjectsData: [
+        {
         pretitle: "Some of my",
         title: "Projects",
         subtitle: "Developing solutions for my clients",
@@ -76,9 +77,11 @@ export const en = {
             "5. Develop the code, then deliver the brand new website!",
         ],
     },
+],
 
     homeServicesData: [
-        {title: "Services",
+        {
+        title: "Services",
         services: [
             {
                 number: '01',

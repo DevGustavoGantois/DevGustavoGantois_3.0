@@ -22,9 +22,11 @@ export function HomeAbout() {
             <h1 className="font-primary text-white text-center lg:text-start text-5xl">
               {item.title}
             </h1>
-            <p className="font-secondary font-extralight text-gray-300 max-w-[600px] text-sm lg:text-base">
+            <div className="flex justify-center lg:justify-start">
+            <p className="font-secondary font-extralight text-center lg:text-start text-gray-300 max-w-[600px] text-sm lg:text-base">
               {item.description}
             </p>
+            </div>
             <div className="flex flex-col lg:flex-row justify-center lg:justify-start mt-5 gap-6">
               <Button variant="primary_port">{item.btnTextPrimary}</Button>
               <Button variant="secondary_port">{item.btnTextSecondary}</Button>

@@ -35,7 +35,7 @@ import { Star } from "lucide-react";
               <Carousel>
                 <CarouselContent>
                   {section.testimonials.map((testimonial, index) => (
-                    <CarouselItem className="md:basis-1/2 lg:basis-1/3" key={index}>
+                    <CarouselItem className="md:basis-1/2 xl:basis-1/3" key={index}>
                       <div className="text-center p-6 border border-white/20 w-full h-full rounded-lg">
                         <h3 className="text-lg font-semibold text-white font-seocndary">
                           {testimonial.name}
