@@ -139,7 +139,8 @@ export const en = {
         ],
     },
 
-    homeExperiencesData: {
+    homeExperiencesData: [
+        {
         title: "Experiences",
         description: "Some of my professional experiences",
         experiences: [
@@ -164,7 +165,9 @@ export const en = {
                     "Working as a digital agency and also as an independent freelancer in website creation and programming, including WordPress and Shopify. I focus on innovative design, responsiveness, and SEO optimization, applying best practices to enhance website rankings on Google Search Console.",
             },
         ],
-    },
+        },
+        
+    ],
 
     homeTechnologiesData: [
         {
