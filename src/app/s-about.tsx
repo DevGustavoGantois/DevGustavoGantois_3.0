@@ -22,7 +22,7 @@ export function HomeAbout() {
             <h1 className="font-primary text-white text-center lg:text-start text-5xl">
               {item.title}
             </h1>
-            <p className="font-secondary font-extralight text-white max-w-[600px] text-sm lg:text-base">
+            <p className="font-secondary font-extralight text-gray-300 max-w-[600px] text-sm lg:text-base">
               {item.description}
             </p>
             <div className="flex flex-col lg:flex-row justify-center lg:justify-start mt-5 gap-6">

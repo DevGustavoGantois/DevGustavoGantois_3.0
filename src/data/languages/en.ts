@@ -109,7 +109,8 @@ export const en = {
     }
     ],
 
-    homeTestimonialsData: {
+    homeTestimonialsData: [
+        {
         title: "Testimonials",
         testimonials: [
             {
@@ -138,6 +139,7 @@ export const en = {
             },
         ],
     },
+],
 
     homeExperiencesData: [
         {

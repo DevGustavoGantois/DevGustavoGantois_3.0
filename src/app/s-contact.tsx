@@ -26,7 +26,7 @@ export function HomeContact() {
                     <article key={index} className="mt-48">
                     <h1 className="font-primary text-white text-5xl lg:text-6xl text-center lg:text-start">{item.title}</h1>
                     <div className="flex justify-center lg:justify-start">
-                    <p className="font-secondary font-light max-w-[600px] text-center lg:text-start text-white">
+                    <p className="font-secondary font-light max-w-[600px] text-center lg:text-start text-gray-300">
                     {item.description}
                     </p>
                     </div>

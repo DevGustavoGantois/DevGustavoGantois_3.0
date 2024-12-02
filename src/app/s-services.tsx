@@ -31,7 +31,7 @@ export function HomeServices() {
                                     <p className="text-white/20 font-primary text-4xl lg:text-6xl">{service.number}</p>
                                     <h3 className="text-xl lg:text-4xl text-white font-secondary mb-4 lg:mb-0">{service.name}</h3>
                                     </div>
-                                    <p className="text-white text-sm lg:text-base max-w-[300px] text-center">{service.description}</p>
+                                    <p className="text-gray-300 text-sm lg:text-base max-w-[300px] text-center">{service.description}</p>
                                 </div>
                                 </div>
                             ))}
