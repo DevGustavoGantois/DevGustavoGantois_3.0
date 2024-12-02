@@ -19,7 +19,7 @@ export function HomeAbout() {
       <div className="flex flex-col justify-center lg:flex-row lg:justify-between">
         {aboutData.map((item, index) => (
           <article className="flex flex-col justify-center gap-1" key={index}>
-            <h1 className="font-primary text-white text-center lg:text-start text-2xl lg:text-4xl">
+            <h1 className="font-primary text-white text-center lg:text-start text-5xl">
               {item.title}
             </h1>
             <p className="font-secondary font-extralight text-white max-w-[600px] text-sm lg:text-base">

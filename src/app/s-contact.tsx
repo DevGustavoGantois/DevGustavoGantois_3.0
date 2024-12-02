@@ -23,8 +23,8 @@ export function HomeContact() {
             <div className="flex flex-col lg:flex-row justify-center lg:justify-between">
                 {contactData.map((item, index) => {
                     return (
-                    <article key={index} className="mt-40">
-                    <h1 className="font-primary text-white text-3xl lg:text-4xl text-center lg:text-start">{item.title}</h1>
+                    <article key={index} className="mt-48">
+                    <h1 className="font-primary text-white text-5xl lg:text-6xl text-center lg:text-start">{item.title}</h1>
                     <div className="flex justify-center lg:justify-start">
                     <p className="font-secondary font-light max-w-[600px] text-center lg:text-start text-white">
                     {item.description}

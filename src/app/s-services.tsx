@@ -20,7 +20,7 @@ export function HomeServices() {
                         return (
                             <div key={index}>
                                 <div className="flex justify-center lg:justify-start">
-                                <h1 className="font-primary text-white text-center text-2xl lg:text-6xl lg:text-start">{item.title}</h1>
+                                <h1 className="font-primary text-white text-center text-5xl lg:text-6xl lg:text-start">{item.title}</h1>
                                 </div>
                                 <div className="mt-20">
                             {item.services.map((service, index) => (
