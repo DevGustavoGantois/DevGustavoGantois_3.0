@@ -33,7 +33,7 @@ export function HomeExperiences() {
                     <h3 className="font-secondary font-medium text-center lg:text-start mb-4">
                         {experience.position}
                     </h3>
-                    <p className="text-secondary text-center lg:text-start">
+                    <p className="text-secondary text-center lg:text-start text-sm lg:text-base">
                         {experience.description}
                     </p>
                 </div>

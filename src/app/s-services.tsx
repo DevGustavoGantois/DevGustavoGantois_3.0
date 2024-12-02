@@ -2,6 +2,7 @@ import { useLanguage } from "@/context/language-context"
 import { pt } from "@/data/languages/pt-br"
 import { en } from "@/data/languages/en"
 import { fr } from "@/data/languages/fr"
+import Image from "next/image";
 export function HomeServices() {
     
     const { language} = useLanguage();
@@ -38,6 +39,11 @@ export function HomeServices() {
                             </div>
                         )
                     })}
+            </div>
+            <div className="flex justify-center mx-auto animate-pulse ">
+                <div className="absolute top-[150rem]">
+                <Image src="/LogoBg.svg" width={1200} height={600} alt="" />
+                </div>
             </div>
         </section>
     )
