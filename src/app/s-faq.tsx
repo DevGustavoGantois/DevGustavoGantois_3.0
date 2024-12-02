@@ -24,7 +24,7 @@ export function HomeFAQ() {
                     <p className="text-white font-secondary text-center text-xl lg:text-2xl">{item.subtitle}</p>
                     <div>{item.questionsAndAnswers.map((item, index) => {
                         return (
-                            <Accordion type="single" collapsible key={index} className="text-white p-6">
+                            <Accordion type="single" collapsible key={index} className="text-white p-6 font-secondary">
                                 <AccordionItem value="item-1">
                                     <AccordionTrigger>{item.question}</AccordionTrigger>
                                     <AccordionContent className="text-gray-400">
