@@ -2,6 +2,7 @@ import { useLanguage } from "@/context/language-context"
 import { en } from "@/data/languages/en"
 import { fr } from "@/data/languages/fr"
 import { pt } from "@/data/languages/pt-br"
+import Image from "next/image"
 import { FaAngular, FaCss3, FaFigma, FaGitAlt, FaGithub, FaHtml5, FaJava, FaNode, FaReact, FaSass, FaVuejs } from "react-icons/fa"
 
 export function HomeTechnologies() {
@@ -67,6 +68,12 @@ export function HomeTechnologies() {
                 <div className="flex items-center justify-center gap-3 text-white">
                     <FaGithub className="text-5xl md:text-4xl lg:text-7xl" />
                     <p className="font-secondary hidden md:flex lg:text-4xl">GitHub</p>
+                </div>
+                <div className="flex items-center justify-center gap-3 text-white">
+                    <Image src="/Tailwind.svg" width={250} height={250} quality={100} alt="" />
+                </div>
+                <div className="flex items-center justify-center gap-3">
+                    <Image src="/Next_Logo.png" width={250} height={250} quality={100} alt="" />
                 </div>
                 <div className="flex items-center justify-center gap-3 text-white">
                     <FaJava className="text-5xl md:text-4xl lg:text-7xl" />

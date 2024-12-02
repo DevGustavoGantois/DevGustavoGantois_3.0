@@ -176,7 +176,8 @@ export const en = {
         }
     ],
 
-    homeFAQData: {
+    homeFAQData: [
+    {
         title: "FAQ",
         subtitle: "Frequently Asked Questions",
         questionsAndAnswers: [
@@ -215,6 +216,7 @@ export const en = {
             },
         ],
     },
+],
 
     homeContactData: [
         {

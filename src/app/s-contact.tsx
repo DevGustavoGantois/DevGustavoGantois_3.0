@@ -55,7 +55,7 @@ export function HomeContact() {
                     <Image src="/ContactImg.svg" width={700} quality={100} height={700} alt="" className="animate-pulse" />
                 </figure>
             </div>
-            <div className="mt-20 flex justify-center items-center animate-pulse">
+            <div className="-mt-8 flex justify-center items-center animate-pulse">
                 <Image src="/CTAContactImg.svg" width={900} height={600} alt="" className="w-full" />
             </div>
         </section>

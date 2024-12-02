@@ -180,7 +180,8 @@ export const pt = {
       },
     ],
   
-    homeFAQData: {
+    homeFAQData: [ 
+    {
       title: "FAQ",
       subtitle: "Perguntas Frequentes",
       questionsAndAnswers: [
@@ -228,7 +229,7 @@ export const pt = {
           }
       ],
     },
-  
+  ],
     homeContactData:[ {
         title: "Contato",
         description: "Entre em contato para desenvolvermos juntos o seu projeto! Vamos transformar suas ideias em soluções digitais inovadoras, trazendo suas visões para o ambiente online com excelência.",

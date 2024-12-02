@@ -180,7 +180,8 @@ export const fr = {
       },
     ],
   
-    homeFAQData: {
+    homeFAQData:[ 
+    {
       title: "FAQ",
       subtitle: "Questions Fréquentes",
       questionsAndAnswers: [
@@ -202,7 +203,7 @@ export const fr = {
         },
       ],
     },
-
+  ],
     homeContactData: [
         {
             title: "Contact",
