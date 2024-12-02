@@ -20,11 +20,7 @@ export function HomeTechnologies() {
             {technologiesData.map((item, index) => {
                 return (
                     <div key={index} className="flex flex-col justify-center mb-6 lg:mb-16">
-<<<<<<< HEAD
                 <h1 className="font-primary text-white  text-4xl lg:text-6xl text-center">{item.title}</h1>
-=======
-                <h1 className="font-primary text-white  text-2xl lg:text-6xl text-center">{item.title}</h1>
->>>>>>> d9ae141e53f0ced9335138214e14f838881f5275
                 <p className="font-secondary text-white text-sm lg:text-base font-extralight text-center">{item.description}</p>
             </div>
                 )
