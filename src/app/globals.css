@@ -14,6 +14,26 @@
   cursor: pointer;
 }
 
+h1.selected::before {
+  content: '→';
+  position: absolute;
+  left: -20px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 24px;
+  color: black;
+}
+
+h1.selected::after {
+  content: '←';
+  position: absolute;
+  right: -20px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 24px;
+  color: black;
+}
+
 @keyframes appear {
   from {
     transform: translateY(100%);
